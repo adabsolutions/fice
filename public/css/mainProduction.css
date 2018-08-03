@@ -1,0 +1,143 @@
+@import url("https://fonts.googleapis.com/css?family=Noto+Sans:400,700&subset=cyrillic");
+body {
+  padding: 0;
+  margin: 0;
+  font: sans-serif;
+  font-size: 14px;
+  font-family: "Noto Sans", sans-serif; }
+
+h4 {
+  font-size: 16px;
+  font-weight: bold;
+  text-transform: uppercase; }
+
+#exchangeTemplate {
+  background-color: rgba(6, 30, 44, 0.63); }
+  #exchangeTemplate .vh-1,
+  #exchangeTemplate .vh-2,
+  #exchangeTemplate .vh-3 {
+    overflow: hidden;
+    margin: 5px 0; }
+  #exchangeTemplate .col-md-2,
+  #exchangeTemplate .col-md-8 {
+    padding-left: 5px !important;
+    padding-right: 5px !important; }
+  #exchangeTemplate .btn {
+    text-align: center;
+    padding: 5px 25px;
+    font-size: 14px;
+    margin: 0 0 5px 0;
+    border-radius: 2px;
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
+    border: none;
+    color: #fff;
+    -webkit-transition: background-color 125ms ease;
+    transition: background-color 125ms ease;
+    cursor: pointer; }
+  #exchangeTemplate .buttonGreen {
+    border-radius: 5px;
+    background-color: #00a651; }
+  #exchangeTemplate .buttonRed {
+    border-radius: 5px;
+    background-color: #ff503f; }
+  #exchangeTemplate table {
+    padding: 5px;
+    width: 100%;
+    text-overflow: clip;
+    color: #fff; }
+    #exchangeTemplate table th,
+    #exchangeTemplate table td {
+      padding: 5px;
+      vertical-align: middle;
+      text-align: center;
+      font-size: 100%; }
+    #exchangeTemplate table thead tr {
+      height: 18px; }
+      #exchangeTemplate table thead tr th {
+        font-size: 14px;
+        font-weight: 400;
+        padding: 0 15px; }
+    #exchangeTemplate table tbody {
+      height: 200px;
+      display: inline-block;
+      width: 100%;
+      overflow: auto; }
+      #exchangeTemplate table tbody tr {
+        display: table-row;
+        cursor: pointer;
+        width: 100%; }
+        #exchangeTemplate table tbody tr:hover {
+          background-color: rgba(0, 0, 0, 0.2);
+          color: #fff !important; }
+        #exchangeTemplate table tbody tr td {
+          height: 14px;
+          font-size: 100%;
+          padding: 0 15px;
+          text-overflow: clip; }
+  #exchangeTemplate .input-group-prepend,
+  #exchangeTemplate input[type=number] {
+    color: #5e5e5e;
+    font-size: 12px;
+    height: 25px; }
+  #exchangeTemplate input[type=number] {
+    border-top-left-radius: 0;
+    border-top-right-radius: 2px;
+    border-bottom-right-radius: 2px;
+    border-bottom-left-radius: 0;
+    padding: 2px 5px; }
+  #exchangeTemplate .input-group-prepend {
+    border-top-left-radius: 2px;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 2px; }
+    #exchangeTemplate .input-group-prepend span {
+      font-size: 14px; }
+  #exchangeTemplate .input-group {
+    position: relative; }
+    #exchangeTemplate .input-group .currency_input {
+      position: absolute;
+      right: 10%;
+      top: 20%;
+      color: rgba(0, 0, 0, 0.5);
+      font-size: 11px; }
+  #exchangeTemplate .buy tbody tr {
+    background-color: rgba(109, 205, 97, 0.4) !important;
+    -webkit-transition: 0.3s;
+    transition: 0.3s; }
+    #exchangeTemplate .buy tbody tr:hover {
+      background-color: rgba(109, 205, 97, 0.8) !important; }
+  #exchangeTemplate .sell tbody tr {
+    background-color: rgba(255, 80, 63, 0.4) !important;
+    -webkit-transition: 0.3s;
+    transition: 0.3s; }
+    #exchangeTemplate .sell tbody tr:hover {
+      background-color: rgba(255, 80, 63, 0.8) !important; }
+  #exchangeTemplate .widgets {
+    background-color: rgba(255, 255, 255, 0.2);
+    padding: 5px 5px;
+    width: 100%;
+    border-radius: 3px;
+    overflow: hidden; }
+    #exchangeTemplate .widgets tbody {
+      overflow: auto; }
+  #exchangeTemplate [type="search"] {
+    border: 0;
+    border-radius: 3px;
+    padding: 5px 5px;
+    width: calc(100vw/12/1.2); }
+  #exchangeTemplate #wallet .walletSum {
+    display: block; }
+  #exchangeTemplate #myOrders [type='submit'] {
+    border: 0 !important;
+    background-color: transparent !important;
+    cursor: pointer;
+    padding: 2px;
+    height: 20px;
+    width: 20px;
+    border-radius: 100%; }
+    #exchangeTemplate #myOrders [type='submit'] i {
+      text-align: center;
+      color: red !important; }
+
+/*# sourceMappingURL=mainProduction.css.map */

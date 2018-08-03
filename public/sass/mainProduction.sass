@@ -1,0 +1,171 @@
+@import url('https://fonts.googleapis.com/css?family=Noto+Sans:400,700&subset=cyrillic')
+body
+	padding: 0
+	margin: 0
+	font: sans-serif
+	font-size: 14px
+	font-family: 'Noto Sans', sans-serif
+h4
+	font-size: 16px
+	font-weight: bold
+	text-transform: uppercase
+
+#exchangeTemplate
+	background-color: rgba(6,30,44, 0.63)
+	//background: url('/img/background.jpg') no-repeat center center
+	//background-color: #f3f3f3
+	.vh-1
+		
+	.vh-1,
+	.vh-2,
+	.vh-3
+		overflow: hidden
+		margin: 5px 0
+
+	.col-md-2,
+
+	.col-md-8
+		padding-left: 5px!important
+		padding-right: 5px!important
+	.btn
+		text-align: center
+		padding: 5px 25px
+		font-size: 14px
+		margin: 0 0 5px 0
+		border-radius: 2px
+		letter-spacing: .5px
+		text-transform: uppercase
+		border: none
+		color: #fff
+		transition: background-color 125ms ease
+		cursor: pointer
+	
+	.buttonGreen
+		border-radius: 5px
+		background-color: #00a651
+	.buttonRed
+		border-radius: 5px
+		background-color: #ff503f
+
+	table
+		padding: 5px
+		width: 100%
+		text-overflow: clip
+		color: #fff
+		th,
+		td
+			padding: 5px
+			vertical-align: middle
+			text-align: center
+			font-size: 100%
+			
+		thead
+			tr
+				height: 18px
+				th
+					font-size: 14px
+					font-weight: 400
+
+					padding: 0 15px
+		tbody
+			height: 200px
+			display: inline-block
+			width: 100%
+			overflow: auto
+			tr
+				display: table-row
+				cursor: pointer
+				width: 100%
+				&:hover
+					background-color: rgba(0,0,0,0.2)
+					color: #fff!important
+				td
+					height: 14px
+					font-size: 100%
+					padding: 0 15px
+					text-overflow: clip
+	.input-group-prepend,
+	input[type=number]
+		color: #5e5e5e
+		font-size: 12px
+		height: 25px
+	input[type=number]
+		border-top-left-radius: 0
+		border-top-right-radius: 2px
+		border-bottom-right-radius: 2px
+		border-bottom-left-radius: 0
+		padding: 2px 5px
+	.input-group-prepend
+		border-top-left-radius: 2px
+		border-top-right-radius: 0
+		border-bottom-right-radius: 0
+		border-bottom-left-radius: 2px
+		span
+			font-size: 14px
+		
+	.input-group
+		position: relative
+		.currency_input
+			position: absolute
+			right: 10%
+			top: 20%
+			color: rgba(0,0,0,0.5)
+			font-size: 11px
+
+		
+	.buy
+		tbody
+			tr		
+				background-color: rgba(109,205,97,0.4)!important
+				transition: .3s
+				&:hover
+					background-color: rgba(109,205,97,0.8)!important	
+	.sell
+		tbody
+			tr		
+				background-color: rgba(255,80,63,0.4)!important
+				transition: .3s
+				&:hover
+					background-color: rgba(255,80,63,0.8)!important	
+					
+
+	.widgets
+		background-color: rgba(255,255,255,0.2)
+		padding: 5px 5px
+		width: 100%
+		border-radius: 3px
+
+		
+		overflow: hidden
+
+		tbody
+			overflow: auto
+
+	[type="search"]
+		border: 0
+		border-radius: 3px
+		padding: 5px 5px
+		width: calc(100vw/12/1.2)
+
+
+
+	#wallet
+		.walletSum
+			display: block	
+
+	#myOrders
+
+		[type='submit']
+			border: 0!important
+			background-color: transparent!important
+			cursor: pointer
+			padding: 2px
+			height: 20px
+			width: 20px
+			border-radius: 100%
+
+			i
+				text-align: center
+				color: red!important
+
+	
